@@ -106,7 +106,6 @@ public:
                 getline(apt_register, temp.time, ',');
                 if (temp.doctorUID == data.doctorUID && temp.date == data.date && temp.time == data.time)
                 {
-                    cout<<"broo"<<endl;
                     return false;
                 }
             }
